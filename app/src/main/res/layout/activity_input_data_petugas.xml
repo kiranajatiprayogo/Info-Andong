@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputDataPetugas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:background="@drawable/header"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/tv_inputPendaki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/poppins"
+                android:text="Input Data Petugas"
+                android:textAlignment="center"
+                android:textColor="@color/secondary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Petugas : "
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_namaPetugas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:hint="Input nama petugas"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail : "
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_emailPetugas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_rounded"
+            android:hint="Input e-mail"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password : "
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_passwordPetugas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_rounded"
+            android:hint="Input password"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:fontFamily="@font/poppins"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan Rahasia (Hint) : "
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <Spinner
+            android:id="@+id/sp_statusPemesanan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_rounded"
+            android:fontFamily="@font/poppins"
+            android:textAlignment="center"
+            android:entries="@array/pertanyaan_hint"
+            android:scrollbarSize="25dp"
+            android:spinnerMode="dropdown"
+            android:autofillHints="Dikota mana anda dilahirkan ?"/>
+
+        <EditText
+            android:id="@+id/ed_hint"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:hint="Masukan Jawaban"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipe User : "
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/ed_tipeUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_rounded"
+            android:text="Petugas"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp">
+
+            <Button
+                android:id="@+id/btn_kembali"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginStart="60dp"
+                android:background="@drawable/rounded"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Kembali"
+                android:textColor="@color/secondary"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_simpanPetugas"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/rounded"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Simpan"
+                android:textColor="@color/secondary"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

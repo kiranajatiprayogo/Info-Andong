@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KelolaRencanaPendakian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:background="@drawable/header"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:id="@+id/tv_inputPendakian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/poppins"
+                android:text="Detail Data Rencana Mendaki"
+                android:textAlignment="center"
+                android:textColor="@color/secondary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username : "
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/ed_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_rounded"
+            android:inputType="text"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_namaRegu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Regu : "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_namaRegu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_rounded"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Regu : "
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_jumlahRegu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_rounded"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_tglPesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Pemesanan : "
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/ed_tglPesan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_rounded"
+            android:inputType="datetime"
+            android:gravity="center"
+            android:text=""
+            android:fontFamily="@font/poppins"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Naik : "
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_tglNaik"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_rounded"
+            android:hint="      Klik 2x disini"
+            android:gravity="center"
+            android:inputType="date"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Turun : "
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/ed_tglTurun"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_rounded"
+            android:inputType="date"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:hint="      Klik 2x disini"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Pemesanan : "
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/tv_statusPendakian"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:text="Menunggu Konfirmasi"
+            android:background="@drawable/bg_rounded"
+            android:fontFamily="@font/poppins"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID Regu : "
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/ed_idRegu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/bg_rounded"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btn_simpanPendakian"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Simpan"
+                android:textColor="@color/secondary"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btn_editPendakian"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/rounded"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Simpan Perubahan"
+                android:textColor="@color/secondary"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btn_hapusPendakian"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/rounded"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Hapus"
+                android:textColor="@color/secondary"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

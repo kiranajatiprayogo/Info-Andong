@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/register"
+            android:layout_margin="20dp"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_text">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_margin="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Buat Akun Baru"
+                    android:textColor="@color/primary"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed_usernameUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="40dp"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:hint="  Username"
+                    android:textColor="@color/primary"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/ed_emailUser"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/ed_usernameUser"
+                    android:hint="  E-mail"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/primary"
+                    android:textSize="12sp"/>
+
+                <EditText
+                    android:id="@+id/ed_passwordUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/ed_emailUser"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:hint="  Password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/primary"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/sp_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/primary"
+                    android:textColor="@color/primary"
+                    android:textSize="12sp"
+                    android:layout_below="@id/ed_passwordUser"
+                    android:fontFamily="@font/poppins"
+                    android:entries="@array/pertanyaan_hint"
+                    android:scrollbarSize="25dp"
+                    android:spinnerMode="dropdown"
+                    android:autofillHints="Dikota mana anda dilahirkan ?"/>
+
+                <EditText
+                    android:id="@+id/ed_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/sp_hint"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:hint=" Jawaban "
+                    android:textColor="@color/primary"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/ed_hint"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/primary"
+                    android:text="Tipe User : "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_tipeUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/ed_hint"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@id/tv_text"
+                    android:backgroundTint="@color/primary"
+                    android:fontFamily="@font/poppins"
+                    android:text="Pendaki"
+                    android:textColor="@color/primary"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/tv_text"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_btnlogin"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Register"
+                    android:textAllCaps="false"
+                    android:textColor="@color/secondary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

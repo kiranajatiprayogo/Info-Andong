@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailGunung">
+
+    <ImageView
+        android:id="@+id/img_gunung"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/andong" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btn_kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_rounded3"
+        android:paddingStart="10dp"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bg_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_namagunung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Gunung Andong"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/tv_lokasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lokasi : Jawa Tengah"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_ketinggian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lokasi"
+                    android:layout_marginVertical="10dp"
+                    android:text="Ketinggian : 1726 Mdpl"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ketinggian"
+                    android:text="Deskripsi :\n\nGunung Andong adalah gunung kecil yang terletak di kabupaten Magelang, Jawa Tengah. Gunung Andong lebih tepatnya terletak di Girirejo, kecamatan Ngablak, kabupaten Magelang dan berketinggian sekitar 1.726 mdpl.
+                                \n\nGunung Andong berpenampakkan seperti punggung sapi, melengkung naik turun. Gunung ini sering dikunjungi oleh para pendaki untuk hunting foto, tidak jarang juga didaki untuk camping karena Gunung Andong ini belum pernah mempunyai aktivitas meletus jadi sangat aman."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_jalur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_deskripsi"
+                    android:layout_marginVertical="20dp"
+                    android:text="Jalur Pendakian : Via Sawit, Pendem, Gogik, Temu, Kembangan, Kudusan"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

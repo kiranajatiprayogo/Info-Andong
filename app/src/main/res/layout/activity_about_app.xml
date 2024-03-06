@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutApp">
+
+    <ImageView
+        android:id="@+id/img_gunung"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/jateng" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btn_kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_rounded3"
+        android:paddingStart="10dp"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bg_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_namagunung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Info Andong"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/tv_lokasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplikasi tentang Gunung Andong, yang dapat digunakan untuk pemesanan online dan berisi artikel tentang panduan mendaki"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_ketinggian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lokasi"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Icon by : icons8.com"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_ilustrasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ketinggian"
+                    android:layout_marginBottom="10dp"
+                    android:text="Ilustrasi/Animassi by : unDraw.co"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ilustrasi"
+                    android:text="Gambar by : Unsplash.com, Google.com"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/made"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_image"
+                    android:layout_marginTop="30dp"
+                    android:text="Made by : Kirana Jati Prayogo - 2023"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

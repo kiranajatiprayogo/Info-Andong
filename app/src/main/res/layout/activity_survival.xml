@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Survival">
+
+    <ImageView
+        android:id="@+id/img_survival"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/kit" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btn_kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_rounded3"
+        android:paddingStart="10dp"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/bg_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_panduanMendaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Perlengkapan Bertahan Hidup (Survival Kit)"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/tv_sub1Survival"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="10dp"
+                    android:text="Sebelum mendaki gunung tentunya kita harus menyiapkan perlengkapan yang benar-benar matang sehingga nantinya kita dapat menghadapi berbagai kondisi apapun dalam pendakian, salah satunya adalah kondisi darurat.
+                    \n\nPerlengkapan bertahan hidup atau biasa disebut sebagai survival kit menjadi hal krusial yang wajib dibawa sebelum mendaki gunung."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub2Survival"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub1Survival"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginVertical="10dp"
+                    android:text="Lantas, apa yang dimaksud dengan survival kit? Gampangnya, survival kit merupakan sejumlah perlengkapan dan peralatan dasar yang digunakan untuk menghadapi kondisi darurat (survival) seperti tersesat, terjebak, atau bahkan situasi yang mengharuskan kamu untuk bertahan hidup.
+                    \n\nAda batasan seseorang dapat bertahan hidup di alam bebas yang semuanya tercancum dalam 3 aturan survival, yaitu:
+                    \n\n-> 3 menit tanpa oksigen
+                    \n-> 3 jam tanpa perlindungan
+                    \n-> 3 hari tanpa air minum
+                    \n-> 3 minggu tanpa makanan"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub3Survival"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub2Survival"
+                    android:fontFamily="@font/poppins"
+                    android:text="Terus, apa saja yang termasuk survival kit?
+                    \n\nDaftar perangkat survival kit yang wajib disiapkan sebelum mendaki gunung. Yuk! langsung saja catat apa saja yang termasuk survival kit dimana daftarnya adalah sebagai berikut.
+                    \n\n-> Perangkat pertolongan pertama (P3K)
+                    \n-> Pemantik api atau korek
+                    \n-> Kompas
+                    \n-> Peta
+                    \n-> Peluit
+                    \n-> Aluminium foil blanket atau selimut darurat
+                    \n-> Pisau multifungsi
+                    \n-> Flysheet atau jas ponco
+                    \n-> Tali kermantel, paracord, atau webbing
+                    \n-> Dan peralatan survival lainnya yang sekiranya berguna untuk bertahan hidup
+                    \n\n (Sumber : tripeloka.com)"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

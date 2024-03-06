@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/cv_laporan"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_namaRegu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="  "
+            android:textColor="@color/primary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jumlahRegu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/poppins"
+            android:layout_below="@id/tv_namaRegu"
+            android:gravity="center"
+            android:text="Jumlah Regu : "
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layerType="software"
+            android:src="@drawable/titik" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_namaPendaki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="  "
+                android:textColor="@color/primary"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:layout_below="@id/tv_namaPendaki"
+                android:gravity="center"
+                android:text="Alamat : "
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_noHPPribadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:layout_below="@id/tv_alamat"
+                android:gravity="center"
+                android:text="Nomor HP : "
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layerType="software"
+            android:src="@drawable/titik" />
+
+        <TextView
+            android:id="@+id/tv_statusPendakian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="  "
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_waktuMulai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Tanggal Mulai"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:id="@+id/img_doubleArrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/tv_waktuMulai"
+                android:src="@drawable/ic_double_arrow" />
+
+            <TextView
+                android:id="@+id/tv_waktuSelesai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/img_doubleArrow"
+                android:fontFamily="@font/poppins"
+                android:text="Tanggal Selesai"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

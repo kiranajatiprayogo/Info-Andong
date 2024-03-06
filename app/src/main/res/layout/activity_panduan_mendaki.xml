@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PanduanMendaki">
+
+    <ImageView
+        android:id="@+id/img_panduan"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/survival" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btn_kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_rounded3"
+        android:paddingStart="10dp"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/bg_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_panduanMendaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Panduan Mendaki Untuk Pemula"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/tv_sub1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="1. Memastikan Kondisi Gunung dan Jalur Pendakian
+                                 \n\n Sebelum mendaki gunung, pastikan kita mengetahui kondisi terbaru gunung tersebut, terlebih bila gunung yang akan didaki termasuk jenis gunung berapi.
+                                 Apakah statusnya aman? atau siaga? atau justru sedang ditutup karena ada erupsi, banjir, longsor, atau lainnya."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub1"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginVertical="10dp"
+                    android:text="2. Siapkan Kondisi Fisik
+                    \n\nUntuk mendaki gunung, diperlukan persiapan fisik yang matang. Kita memerlukan otot leher, otot lengan, dan otot kaki yang kokoh.
+                    \n\nUntuk itu, minimal sebulan sebelum pendakian, kita sudah mempersiapkan diri dengan rutin olahraga. Lari pagi, push up, shit up, angkat beban, dan kegiatan fisik lain yang baik untuk stamina dan otot."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub2"
+                    android:fontFamily="@font/poppins"
+                    android:text="3. Istirahat dan Jangan Memaksakan Diri
+                                 \n\nBila tubuh merasa lelah, jangan ragu untuk mengusulkan istirahat. Karena bila dipaksakan akan berakibat pada cedera atau kelelahan akut.
+                                 \n\nMungkin awalnya tidak mau menyusahkan anggota kelompok lainnya, namun karena memaksakan diri maka pada akhirnya akan menyusahkan dan menghambat perjalanan."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub3"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginVertical="10dp"
+                    android:text="4. Patuhi Peraturan
+                                 \n\nSebelum mendaki gunung, tentu kita akan diberi pengarahan oleh petugas di pos pertama. Simak dengan baik setiap pengarahan yang diberikan, terutama bila jalur pendakian yang dilalui berbahaya.
+                                 \n\nIkuti saran dan patuhi setiap peraturan yang berlaku. Karena semua aturan itu dibuat untuk memberikan keamanan kepada para pendaki."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub4"
+                    android:fontFamily="@font/poppins"
+                    android:text="5. Tetap Menjaga Kebersihan Alam
+                                 \n\nTips mendaki gunung yang terakhir adalah bersikaplah selayaknya tamu yang baik yang telah dijamu oleh tuan rumah dengan pemandangan yang indah. Kita wajib membalasnya dengan kebaikan pula.
+                                 \n\nJangan melakukan vandalisme pada pohon atau batu. Junjunglah kode etik pecinta alam yang juga menjadi pedoman para pendaki gunung.
+                                 \n\n (Sumber : rimbakita.com)"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

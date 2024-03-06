@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    tools:context=".HalamanUser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/bg_rounded2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/poppins"
+                android:text="Selamat Datang,"
+                android:textColor="@color/secondary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_welcome"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/poppins"
+                android:text=" "
+                android:textColor="@color/secondary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_profil"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginVertical="25dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ic_profile" />
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/secondary"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/ic_mainmenu" />
+
+                <TextView
+                    android:id="@+id/tv_judulPanduan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="17dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Main menu "
+                    android:textColor="@color/primary"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="60dp">
+
+                <TextView
+                    android:id="@+id/tv_daki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Informasi Panduan Mendaki Gunung"
+                    android:textColor="@color/primary"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_MP"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_daki"
+                    android:layout_marginStart="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_mountain" />
+
+                <TextView
+                    android:id="@+id/tv_MP"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_MP"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Gunung Andong"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_alat"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_daki"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/img_MP"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tenda" />
+
+                <TextView
+                    android:id="@+id/tv_alatMendaki"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_alat"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_toEndOf="@+id/tv_MP"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Peralatan Mendaki"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_panduan"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_daki"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/img_alat"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/campfire" />
+
+                <TextView
+                    android:id="@+id/tv_panduan"
+                    android:layout_width="50dp"
+                    android:layout_height="32dp"
+                    android:layout_below="@+id/img_panduan"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/tv_alatMendaki"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Panduan Mendaki"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_tips"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toEndOf="@+id/img_panduan"
+                    android:src="@drawable/tips" />
+
+                <TextView
+                    android:id="@+id/tv_tips"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_tips"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/tv_panduan"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Tips Untuk Pemula"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_logistik"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_alatMendaki"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="95dp"
+                    android:src="@drawable/ic_logistik" />
+
+                <TextView
+                    android:id="@+id/tv_logistik"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_logistik"
+                    android:layout_marginStart="90dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Logistik"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_survival"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_MP"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/p3k" />
+
+                <TextView
+                    android:id="@+id/tv_survival"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_survival"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Survival Kit"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_about"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_panduan"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="165dp"
+                    android:src="@drawable/ic_info" />
+
+                <TextView
+                    android:id="@+id/tv_about"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_about"
+                    android:layout_marginStart="160dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Tentang Aplikasi"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="260dp">
+
+                <TextView
+                    android:id="@+id/tv_layanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Layanan Pemesanan Tiket Online"
+                    android:textColor="@color/primary"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_booking"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_layanan"
+                    android:layout_marginStart="25dp"
+                    android:src="@drawable/timer" />
+
+                <TextView
+                    android:id="@+id/tv_booking"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_booking"
+                    android:layout_marginVertical="5dp"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Booking Online"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/img_riwayat"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/tv_layanan"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@id/img_booking"
+                    android:src="@drawable/ic_history" />
+
+                <TextView
+                    android:id="@+id/tv_riwayat"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_riwayat"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Riwayat Pendakian"
+                    android:textColor="@color/primary"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginHorizontal="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/secondary"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:src="@drawable/ic_location" />
+
+                    <TextView
+                        android:id="@+id/tv_judul2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="17dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Basecamp Gunung Andong "
+                        android:textColor="@color/primary"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp">
+
+                    <TextView
+                        android:id="@+id/tv_judul3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Basecamp Gunung Andong Via Sawit"
+                        android:textColor="@color/primary"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_Jalur"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_below="@id/tv_judul3"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/mapView"
+                            android:name="com.google.android.gms.maps.SupportMapFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            map:mapType="satellite"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

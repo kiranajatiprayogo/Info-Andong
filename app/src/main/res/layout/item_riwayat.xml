@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="355dp"
+    android:id="@+id/cv_riwayat"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btn_lihatPendaki"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/primary"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_lihat_data2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/poppins"
+                android:text="Lihat Data Pendaki"
+                android:textColor="@color/secondary2"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_namaRegu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="  "
+            android:textColor="@color/primary"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_idRegu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="  "
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layerType="software"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/titik" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_tglPesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Tanggal Pesan : "
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_jumlahRegu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_tglPesan"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Jumlah Regu : "
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_statusPemesanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_jumlahRegu"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Status Pemesanan : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layerType="software"
+            android:src="@drawable/titik" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_tglNaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Tanggal Naik"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/img_doubleArrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/tv_tglNaik"
+                android:src="@drawable/ic_double_arrow" />
+
+            <TextView
+                android:id="@+id/tv_tglTurun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@id/img_doubleArrow"
+                android:fontFamily="@font/poppins"
+                android:text="Tanggal Turun"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lihatRiwayat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/secondary2"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_lihat_data" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/poppins"
+                android:text="Lihat Data Riwayat Pendakian"
+                android:textColor="@color/primary"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

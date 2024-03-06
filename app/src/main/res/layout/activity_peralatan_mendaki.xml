@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeralatanMendaki">
+
+    <ImageView
+        android:id="@+id/img_peralatan"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/pakaian" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btn_kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_rounded3"
+        android:paddingStart="10dp"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1700dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/bg_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_peralatanMendaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Peralatan Mendaki Untuk Pemula"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1700dp"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/tv_sub1Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="1. Pakaian Khusus Mendaki Gunung
+                                 \n\nSebagian pendaki mengungkapkan bahwa saat mereka berada di atas gunung, maka suhu udara akan semakin dingin bahkan dinginnya terasa mencekam seperti menusuk tulang.
+                                 \n\nOleh karenanya, sebelum memutuskan mendaki gunung, tentunya kamu harus mempersiapkan terlebih dahulu pakaian khusus hiking atau biasa disebut outfit naik gunung. Simak beberapa tips memilih outfit naik gunung berikut ini.
+                                \n\n-> Menggunakan pakaian berbahan ramah khusus outdoor.
+                                \n-> Menggunakan pakaian yang tertutup.
+                                \n-> Menggunakan pakaian berwarna terang.
+                                \n-> Menggunakan pakaian berbahan kuat atau durable.
+                                \n-> Menghindari pakaian berbahan katun."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub2Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub1Alat"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginVertical="10dp"
+                    android:text="2. Alat Memasak (Cooking Set)
+                    \n\nTerdapat beberapa alat masak naik gunung yang memang sudah dirancang secara khusus untuk kepentingan outdoor, salah satunya demi keperluan mendaki gunung. Adapun beberapa peralatan memasak saat naik gunung yang wajib dibawa adalah sebagai berikut.
+                    \n\nKompor lapangan, Gas kaleng, Nesting, Trangia, Piring plastik, Gelas plastik, Sendok dan Garpu lipat, Korek, dll."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub3Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub2Alat"
+                    android:fontFamily="@font/poppins"
+                    android:text="3. Alat Penerangan
+                    \n\nTanpa bantuan penerangan yang memadai, kemungkinan seorang pendaki akan menemui kesulitan dalam melakukan aktivitas dan perjalanan, khususnya pada saat memasak dan membangun tenda di malam hari.
+                    \n\nOleh karena itu sangat direkomendasikan pendaki pemula untuk menggunakan headlamp, lampu tenda, senter, dan lentera sebagai media alat penerangan yang terbaik.
+                    \n\nJangan lupa untuk selalu berjaga-jaga dengan membawa baterai cadangan demi menghindari hal-hal yang tidak diinginkan saat berada di gunung."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub4Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub3Alat"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginVertical="10dp"
+                    android:text="4. Tas Gunung (Carrier)
+                    \n\nTas gunung atau biasa disebut sebagai tas carrier merupakan sebuah perlengkapan yang sangat wajib disiapkan sebelum mendaki gunung.
+                    \n\nKita semua pastinya sudah memahami bahwa carrier berfungsi untuk menyimpan berbagai macam perlengkapan dan peralatan pendakian, seperti bekal logistik, pakaian, alat masak, tenda, matras, sleeping bag dan masih banyak lagi."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub5Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub4Alat"
+                    android:fontFamily="@font/poppins"
+                    android:text="5. Sepatu Gunung
+                    \n\nSeorang pendaki harus berjuang sekuat tenaga demi bisa melewati berbagai macam rintangan, dimana salah satunya adalah melintasi jalur dan medan pendakian yang sangatlah ekstrim.
+                    \n\nOleh karena itu, untuk memudahkan kamu dalam melewati jalur dan medan pendakian yang ekstrim, tentunya kamu membutuhkan perlengkapan tambahan, yaitu sebuah sepatu gunung yang mumpuni. Pada dasarnya, sepatu gunung merupakan sepatu yang dirancang secara khusus dengan bahan konstruksi kuat"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub6Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub5Alat"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="6. Matras dan Sleeping Bag
+                                 \n\nPeralatan dan perlengkapan selanjutnya yang wajib disiapkan sebelum mendaki gunung adalah matras dan sleeping bag.
+                                 \n\nApa itu matras? Matras merupakan sebuah peralatan multifungsi yang dimana salah satunya digunakan sebagai alas tidur saat berada di tenda. Pastikan memilih matras dengan bahan yang nyaman untuk beristirahat, terutama saat hendak tidur di permukaan dengan kontur bebatuan.
+                                 \n\nLalu, bagaimana dengan sleeping bag? Sleeping bag merupakan sebuah peralatan yang berfungsi sebagai penghangat tubuh saat ingin beristirahat atau tidur dari dinginnya suhu gunung di malam hari, sehingga dapat mengurangi resiko terjadinya hipotermia."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub7Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub6Alat"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="7. Tenda Camping Double Layer
+                                 \n\nBisa dikatakan bahwa tenda merupakan sebuah rumah yang melindungi kita dari dinginnya suhu udara dan binatang-binatang berbahaya.
+                                 \n\nPilihlah tenda dengan desain yang double layer. Apa itu tenda double layer? Tenda double layer merupakan sebuah tenda yang sangat cocok digunakan untuk menghadapi berbagai macam kondisi cuaca saat pendakian.
+                                 \n\nTenda ini memiliki 2 lapisan utama yang berguna untuk melindungi kita dari ganasnya hujan badai maupun panasnya matahari."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub8Alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub7Alat"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginVertical="10dp"
+                    android:text="8. Tongkat Mendaki (Trekking Pole)
+                                 \n\nTongkat mendaki gunung atau biasa dikenal sebagai Trekking Pole merupakan sebuah peralatan pendakian yang berfungsi untuk menyeimbangkan distribusi beban tubuh sang pendaki dalam melakukan perjalanan menaiki gunung,
+                                 terutama saat melewati jalur dengan kondisi medan yang masih baru dan ekstrim.
+                                 \n\n (Sumber : tripeloka.com)"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

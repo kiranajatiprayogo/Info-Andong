@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logistik">
+
+    <ImageView
+        android:id="@+id/img_logistik"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/logistik" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/btn_kembali"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_rounded3"
+        android:paddingStart="10dp"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1700dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/bg_text"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tipsMendaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Pentingnya Manajemen Logistik Saat Mendaki Gunung"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1700dp"
+                android:layout_marginHorizontal="30dp">
+
+                <TextView
+                    android:id="@+id/tv_sub1Tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Saat melaksanakan pendakian, kemampuan manajemen logistik sangat vital, terutama bagi pendakian yang membutuhkan waktu cukup lama. Logistik itu adalah makanan atau bekal apapun yang kita bawa saat melakukan pendakian.
+                            \n\nKekeliruan teknik mengatur logistik dapat menyebabkan pendakian terasa makin sulit dan bahkan apabila keadaan ekstrim bisa menyebabkan kematian, oleh karena itu managemen logistik sangat dibutuhkan oleh setiap pendaki pemula ataupun yang sudah sering mendaki"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub2Tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub1Tips"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Ada beberapa hal penting yang harus diperhatikan saat memilih jenis logistik atau perbekalan selama pendakian antara lain :
+                                \n\n-> Perhatikan total kalori dan komposisi gizi dan nutrisi yang terkandung.
+                                \n-> Ukurannya jangan terlalu besar, pilih makanan yang tidak mudah rusak dan awet.
+                                \n-> Mudah dalam penyajian, agar kita hemat waktu, air dan bahan bakar."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub3Tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub2Tips"
+                    android:fontFamily="@font/poppins"
+                    android:text="Beberapa faktor yang menjadi bahan pertimbangan saat menentukan perbekalan/logistik dalam pendakian antara lain :
+                                 \n\n 1. Lama Waktu Pendakian
+                                 \n\nTentunya lama proses pendakian yang kita lakukan menjadi pertimbangan utama, kaitannya dengan berapa banyak perbekalan yang kita bawa dan kebutuhan nutrisi harian,
+                                 \n\nperhitungan lama pendakian dimulai saat melakukan perjalanan hingga saat kita kembali ke pos pendakian pertama dan juga sebaikanya kita lebihkan perbelakan 1-2 hari untuk tindakan preventif, terhadap hal darurat."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub4Tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub3Tips"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="2. Jumlah Pendaki
+                                  \n\nJumlah pendaki keseluruhan juga menjadi pertibangan berikutnya, yang menentukan banyaknya logistik yang harus dibawa, baik bagi pendakian dalam kelompok kecil,sedang maupun besar.
+                                  \n\nHitung dengan tepat berapa jumlah pendaki yang akan berangkat dan juga lamanya waktu pendakian."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub5Tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub4Tips"
+                    android:fontFamily="@font/poppins"
+                    android:text="3. Pertimbangan Alergi Makanan
+                                  \n\nAda kalanya tidak semua jenis makan dapat dimakan oleh setiap pendaki, bisa jadi dalam rombongan itu terdapat personil yang tidak bisa makan jenis makanan tertentu karena alasan misalnya alergi dan sebagainya.
+                                  \n\nTentu ini akan jadi masalah apabila tidak diperhatikan, dalam hal ini bisa jadi list makanan di daftar banyak yang berubah karena faktor ketiga.
+                                  \n\n4. Adanya Sumber Air
+                                  \n\nAir merupakan kebutuhan yang paling vital dalam perjalanan maupun pendakian, tubuh manusia dapat bertahan lebih lama dalam keadaan kebutuhan air tercukupi dibanding dengan kebutuhan makanan saja yang tercukupi,
+                                  \n\nOleh karena itu pastikan apakah tempat pendakian kita memiliki sumber air yang layak dan cukup selama pendakian, atau kita harus membawa semua kebutuhan air dari rumah."
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_sub6Tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_sub5Tips"
+                    android:layout_marginVertical="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Contoh sumber makanan kaya serat yang bisa menjadi alternatif saat pendakian :
+                                \n\n>> Sumber karbohidrat pengganti Beras ada beberapa alternatif lain yang dapat dijadikan opsi seperti, Bubur nasi, Biskuit, Sereal, Mie, Roti gandum.
+                                \n\n>> Sumber protein pengganti Telur kita bisa juga membawa Susu, Sarden, Keju, Yogurt sebagai tambahan atau alternatif pengganti.
+                                \n\n>> Untuk sumber lemak anda bisa menyediakan Cornet, Sosis, Baso, Abon atau Dendeng.
+                                \n\n>> Selain itu untuk memenuhi nutrisi kita juga bisa membawa buah-buahan dan sayuran seperti Apel, alpukat, pir, pisang, wortel, kentang, timun, brokoli dan sebagainya.
+                                \n\n(Sumber : jausan.id)"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

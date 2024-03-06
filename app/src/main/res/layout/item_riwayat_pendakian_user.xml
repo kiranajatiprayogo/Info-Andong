@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="470dp"
+    android:id="@+id/cv_riwayatPendakianUser"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/yellow"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_edit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins"
+                android:text="Edit Data"
+                android:textColor="@color/primary"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_namaRegu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Nama Regu"
+            android:textColor="@color/primary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_namaPendaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Nama Pendaki "
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_statusPendakian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="Status Pendakian : "
+            android:textColor="@color/primary"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layerType="software"
+            android:src="@drawable/titik" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_naik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Waktu (Naik) "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/tv_naikPos1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_naik"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Tiba di POS 1 : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/tv_naikPos2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_naikPos1"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Tiba di POS 2 : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/tv_naikPos3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_naikPos2"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Tiba di POS 3 : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layerType="software"
+            android:src="@drawable/titik" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_turun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Waktu (Turun) "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/tv_turunPos3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="Tiba di POS 3 : "
+                android:layout_below="@id/tv_turun"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/tv_turunPos2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_turunPos3"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Tiba di POS 2 : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/tv_turunPos1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_turunPos2"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="Tiba di POS 1 : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layerType="software"
+            android:src="@drawable/titik" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_waktuMulai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins"
+                android:text="Waktu Mulai : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+            <ImageView
+                android:id="@+id/img_doubleArrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/tv_waktuMulai"
+                android:src="@drawable/ic_double_arrow" />
+
+            <TextView
+                android:id="@+id/tv_waktuSelesai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/img_doubleArrow"
+                android:fontFamily="@font/poppins"
+                android:text="Waktu Selesai : "
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
