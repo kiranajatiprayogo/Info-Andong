@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_pemesanan">
+        <item>Menunggu Konfirmasi</item>
+        <item>Dikonfirmasi</item>
+    </string-array>
+
+    <string-array name="status_pendakian">
+        <item>Mulai</item>
+        <item>Selesai</item>
+    </string-array>
+
+    <string-array name="pertanyaan_hint">
+        <item>Dikota mana anda dilahirkan ?</item>
+        <item>Siapa nama ibu kandung anda ?</item>
+        <item>Siapa nama teman akrab anda waktu kecil ?</item>
+        <item>Apa nama binatang peliharaan pertama anda ?</item>
+        <item>Apa nama sekolah pertama anda ?</item>
+    </string-array>
+</resources>
