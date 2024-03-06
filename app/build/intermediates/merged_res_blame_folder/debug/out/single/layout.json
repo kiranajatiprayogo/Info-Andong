@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_awal.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_tampilan_awal.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_kelola_riwayat_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_kelola_riwayat_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_input_data_petugas.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_input_data_petugas.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_riwayat.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_riwayat.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profil_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_profil_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_kelola_riwayat_pendakian_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_kelola_riwayat_pendakian_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_survival.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_survival.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_riwayat_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_riwayat_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_laporan_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_laporan_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_berhasil.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_berhasil.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_riwayat.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_riwayat.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_panduan_mendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_panduan_mendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail_gunung.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_detail_gunung.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lihat_data_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_lihat_data_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_riwayat_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_riwayat_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dashboard_admin.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_dashboard_admin.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tips_mendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_tips_mendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lupa_password.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_lupa_password.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_kelola_riwayat_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_kelola_riwayat_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_maps.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\fragment_maps.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_kelola_rencana_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_kelola_rencana_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lihat_riwayat_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_lihat_riwayat_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lihat_riwayat_pendakian_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_lihat_riwayat_pendakian_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_halaman_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_halaman_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lihat_riwayat_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_lihat_riwayat_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_laporan.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_laporan.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_riwayat_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_riwayat_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_input_berhasil.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_input_berhasil.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lihat_data_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_lihat_data_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_riwayat_pendakian_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_riwayat_pendakian_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_kelola_data_pendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_kelola_data_pendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_peralatan_mendaki.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_peralatan_mendaki.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_laporan.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_laporan.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_kelola_data_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_kelola_data_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_about_app.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_about_app.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_riwayat_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_riwayat_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contain_user.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\contain_user.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rencana_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_rencana_pendakian.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_logistik.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\activity_logistik.xml"
+    },
+    {
+        "merged": "D:\\Android\\Belajar\\MuncakApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_pendakian.xml",
+        "source": "D:\\Android\\Belajar\\MuncakApp\\app\\src\\main\\res\\layout\\item_pendakian.xml"
+    }
+]
