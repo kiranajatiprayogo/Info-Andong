@@ -1,0 +1,420 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rana.muncakapp"
+4    android:targetSandboxVersion="1"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:11:5-67
+17-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:12:5-79
+18-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:14:5-81
+20-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:15:5-80
+21-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+22-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:16:5-82
+22-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:16:22-79
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+27
+28    <queries>
+28-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+29
+30        <!-- Needs to be explicitly declared on Android R+ -->
+31        <package android:name="com.google.android.apps.maps" />
+31-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+31-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+32    </queries>
+33
+34    <application
+34-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:18:5-178:19
+35        android:allowBackup="true"
+35-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:19:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2211b2af80c2040823aefb9bbce90544\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@drawable/ic_logo"
+38-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:20:9-41
+39        android:label="@string/app_name"
+39-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:21:9-41
+40        android:roundIcon="@drawable/ic_logo"
+40-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:22:9-46
+41        android:supportsRtl="true"
+41-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:23:9-35
+42        android:theme="@style/Theme.MuncakApp"
+42-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:24:9-47
+43        android:usesCleartextTraffic="true" >
+43-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:25:9-44
+44        <activity
+44-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:26:9-29:75
+45            android:name="com.rana.muncakapp.AboutApp"
+45-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:27:13-37
+46            android:exported="true"
+46-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:28:13-36
+47            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+47-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:29:13-72
+48        <activity
+48-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:30:9-33:75
+49            android:name="com.rana.muncakapp.KelolaRiwayatPendakianUser"
+49-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:31:13-55
+50            android:exported="true"
+50-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:32:13-36
+51            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+51-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:33:13-72
+52        <activity
+52-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:34:9-37:75
+53            android:name="com.rana.muncakapp.LihatRiwayatPendakianUser"
+53-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:35:13-54
+54            android:exported="true"
+54-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:36:13-36
+55            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+55-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:37:13-72
+56        <activity
+56-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:38:9-41:75
+57            android:name="com.rana.muncakapp.LihatRiwayatPendakian"
+57-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:39:13-50
+58            android:exported="true"
+58-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:40:13-36
+59            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+59-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:41:13-72
+60        <activity
+60-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:42:9-45:75
+61            android:name="com.rana.muncakapp.KelolaRiwayatPendakian"
+61-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:43:13-51
+62            android:exported="true"
+62-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:44:13-36
+63            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+63-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:45:13-72
+64        <activity
+64-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:46:9-49:75
+65            android:name="com.rana.muncakapp.HalamanUser"
+65-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:47:13-40
+66            android:exported="true"
+66-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:48:13-36
+67            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+67-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:49:13-72
+68        <activity
+68-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:50:9-53:75
+69            android:name="com.rana.muncakapp.KelolaRencanaPendakian"
+69-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:51:13-51
+70            android:exported="true"
+70-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:52:13-36
+71            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+71-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:53:13-72
+72        <activity
+72-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:54:9-57:75
+73            android:name="com.rana.muncakapp.KelolaRiwayatPendaki"
+73-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:55:13-49
+74            android:exported="true"
+74-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:56:13-36
+75            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+75-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:57:13-72
+76        <activity
+76-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:58:9-61:75
+77            android:name="com.rana.muncakapp.LihatRiwayatPendaki"
+77-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:59:13-48
+78            android:exported="true"
+78-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:60:13-36
+79            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+79-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:61:13-72
+80        <activity
+80-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:62:9-65:75
+81            android:name="com.rana.muncakapp.ProfilUser"
+81-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:63:13-39
+82            android:exported="true"
+82-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:64:13-36
+83            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+83-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:65:13-72
+84        <activity
+84-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:66:9-69:75
+85            android:name="com.rana.muncakapp.RencanaPendakian"
+85-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:67:13-45
+86            android:exported="true"
+86-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:68:13-36
+87            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+87-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:69:13-72
+88        <activity
+88-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:70:9-73:75
+89            android:name="com.rana.muncakapp.InputBerhasil"
+89-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:71:13-42
+90            android:exported="true"
+90-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:72:13-36
+91            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+91-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:73:13-72
+92        <activity
+92-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:74:9-77:75
+93            android:name="com.rana.muncakapp.Logistik"
+93-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:75:13-37
+94            android:exported="true"
+94-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:76:13-36
+95            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+95-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:77:13-72
+96        <activity
+96-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:78:9-81:75
+97            android:name="com.rana.muncakapp.TipsMendaki"
+97-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:79:13-40
+98            android:exported="true"
+98-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:80:13-36
+99            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+99-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:81:13-72
+100        <activity
+100-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:82:9-85:75
+101            android:name="com.rana.muncakapp.Survival"
+101-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:83:13-37
+102            android:exported="true"
+102-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:84:13-36
+103            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+103-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:85:13-72
+104        <activity
+104-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:86:9-89:75
+105            android:name="com.rana.muncakapp.PeralatanMendaki"
+105-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:87:13-45
+106            android:exported="true"
+106-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:88:13-36
+107            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+107-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:89:13-72
+108        <activity
+108-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:90:9-93:75
+109            android:name="com.rana.muncakapp.PanduanMendaki"
+109-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:91:13-43
+110            android:exported="true"
+110-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:92:13-36
+111            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+111-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:93:13-72
+112        <activity
+112-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:94:9-97:75
+113            android:name="com.rana.muncakapp.InputDataPetugas"
+113-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:95:13-45
+114            android:exported="true"
+114-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:96:13-36
+115            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+115-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:97:13-72
+116        <activity
+116-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:98:9-101:75
+117            android:name="com.rana.muncakapp.HalamanBerhasil"
+117-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:99:13-44
+118            android:exported="true"
+118-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:100:13-36
+119            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+119-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:101:13-72
+120        <activity
+120-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:102:9-105:75
+121            android:name="com.rana.muncakapp.LaporanPendakian"
+121-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:103:13-45
+122            android:exported="true"
+122-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:104:13-36
+123            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+123-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:105:13-72
+124        <activity
+124-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:106:9-109:75
+125            android:name="com.rana.muncakapp.LupaPassword"
+125-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:107:13-41
+126            android:exported="true"
+126-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:108:13-36
+127            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+127-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:109:13-72
+128        <activity
+128-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:110:9-113:75
+129            android:name="com.rana.muncakapp.DashboardAdmin"
+129-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:111:13-43
+130            android:exported="true"
+130-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:112:13-36
+131            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+131-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:113:13-72
+132        <activity
+132-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:114:9-117:75
+133            android:name="com.rana.muncakapp.Register"
+133-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:115:13-37
+134            android:exported="true"
+134-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:116:13-36
+135            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+135-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:117:13-72
+136        <!--
+137             The API key for Google Maps-based APIs is defined as a string resource.
+138             (See the file "res/values/google_maps_api.xml").
+139             Note that the API key is linked to the encryption key used to sign the APK.
+140             You need a different API key for each encryption key, including the release key that is used to
+141             sign the APK for publishing.
+142             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+143        -->
+144        <meta-data
+144-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:126:9-128:55
+145            android:name="com.google.android.geo.API_KEY"
+145-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:127:13-58
+146            android:value="@string/google_maps_key" />
+146-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:128:13-52
+147
+148        <activity
+148-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:130:9-133:75
+149            android:name="com.rana.muncakapp.LihatDataPendaki"
+149-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:131:13-45
+150            android:exported="true"
+150-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:132:13-36
+151            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+151-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:133:13-72
+152        <activity
+152-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:134:9-137:75
+153            android:name="com.rana.muncakapp.LihatDataPendakian"
+153-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:135:13-47
+154            android:exported="true"
+154-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:136:13-36
+155            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+155-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:137:13-72
+156        <activity
+156-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:138:9-141:75
+157            android:name="com.rana.muncakapp.KelolaDataPendaki"
+157-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:139:13-46
+158            android:exported="true"
+158-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:140:13-36
+159            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+159-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:141:13-72
+160        <activity
+160-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:142:9-145:75
+161            android:name="com.rana.muncakapp.KelolaDataPendakian"
+161-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:143:13-48
+162            android:exported="true"
+162-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:144:13-36
+163            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+163-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:145:13-72
+164        <activity
+164-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:146:9-149:75
+165            android:name="com.rana.muncakapp.Login"
+165-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:147:13-34
+166            android:exported="true"
+166-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:148:13-36
+167            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+167-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:149:13-72
+168        <activity
+168-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:150:9-153:75
+169            android:name="com.rana.muncakapp.DetailGunung"
+169-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:151:13-41
+170            android:exported="true"
+170-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:152:13-36
+171            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+171-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:153:13-72
+172        <activity
+172-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:154:9-157:75
+173            android:name="com.rana.muncakapp.MainActivity"
+173-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:155:13-41
+174            android:exported="true"
+174-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:156:13-36
+175            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+175-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:157:13-72
+176        <activity
+176-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:158:9-167:20
+177            android:name="com.rana.muncakapp.TampilanAwal"
+177-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:159:13-41
+178            android:exported="true"
+178-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:160:13-36
+179            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+179-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:161:13-72
+180            <intent-filter>
+180-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:162:13-166:29
+181                <action android:name="android.intent.action.MAIN" />
+181-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:163:17-69
+181-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:163:25-66
+182
+183                <category android:name="android.intent.category.LAUNCHER" />
+183-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:165:17-77
+183-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:165:27-74
+184            </intent-filter>
+185        </activity>
+186
+187        <provider
+187-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:169:9-177:20
+188            android:name="androidx.core.content.FileProvider"
+188-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:170:13-62
+189            android:authorities="com.rana.muncakapp.fileprovider"
+189-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:171:13-66
+190            android:exported="false"
+190-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:172:13-37
+191            android:grantUriPermissions="true" >
+191-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:173:13-47
+192            <meta-data
+192-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:174:13-176:58
+193                android:name="android.support.FILE_PROVIDER_PATHS"
+193-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:175:17-67
+194                android:resource="@xml/provider_paths" />
+194-->D:\Android\Belajar\MuncakApp\app\src\main\AndroidManifest.xml:176:17-55
+195        </provider>
+196
+197        <activity
+197-->[com.karumi:dexter:5.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\c6f8551e3e572e5ad350735ba611240f\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+198            android:name="com.karumi.dexter.DexterActivity"
+198-->[com.karumi:dexter:5.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\c6f8551e3e572e5ad350735ba611240f\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+199            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+199-->[com.karumi:dexter:5.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\c6f8551e3e572e5ad350735ba611240f\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+200        <uses-library
+200-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+201            android:name="org.apache.http.legacy"
+201-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+202            android:required="false" />
+202-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Lenovo\.gradle\caches\transforms-3\95d4109ec1ff90f06a212c375469877c\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+203
+204        <activity
+204-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\59a41b26b4b9d91d3247bc742b667ab2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+205            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+205-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\59a41b26b4b9d91d3247bc742b667ab2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\59a41b26b4b9d91d3247bc742b667ab2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\59a41b26b4b9d91d3247bc742b667ab2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+208
+209        <meta-data
+209-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\093ebe980e49b45c59003e24df3045c4\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+210            android:name="com.google.android.gms.version"
+210-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\093ebe980e49b45c59003e24df3045c4\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+211            android:value="@integer/google_play_services_version" />
+211-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Lenovo\.gradle\caches\transforms-3\093ebe980e49b45c59003e24df3045c4\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+212
+213        <provider
+213-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+214            android:name="androidx.startup.InitializationProvider"
+214-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+215            android:authorities="com.rana.muncakapp.androidx-startup"
+215-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+216            android:exported="false" >
+216-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+217            <meta-data
+217-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+218                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+218-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+219                android:value="androidx.startup" />
+219-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+220            <meta-data
+220-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lenovo\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+221                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+221-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lenovo\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+222                android:value="androidx.startup" />
+222-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Lenovo\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+223        </provider>
+224    </application>
+225
+226</manifest>
